@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-26 18:30+0000\n"
-"PO-Revision-Date: 2025-12-24 23:22+0000\n"
+"PO-Revision-Date: 2025-12-29 23:22+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19-doc/finance/es_419/>\n"
@@ -49,8 +49,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
-"0) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 
 #: ../../content/applications/finance.rst:5
@@ -74540,7 +74540,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:753
 msgid "Pay by direct deposit"
-msgstr ""
+msgstr "Pagar por depósito directo"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:755
 msgid ""
@@ -74549,6 +74549,11 @@ msgid ""
 "a physical check or manual deposit. Odoo offers direct deposit through an "
 "international money transfer service called `Wise.com <https://wise.com/>`_."
 msgstr ""
+"El depósito directo es una transferencia electrónica de fondos, utilizada "
+"principalmente en Estados Unidos, en la que el dinero se envía directamente "
+"a una cuenta bancaria sin usar cheques físicos ni depósitos manuales. Odoo "
+"ofrece el depósito directo mediante un servicio internacional de "
+"transferencias llamado `Wise.com <https://wise.com/>`_."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:760
 msgid ""
@@ -74556,14 +74561,17 @@ msgid ""
 "can send and receive payments using Wise's cross-border payment technology "
 "without building everything from scratch."
 msgstr ""
+"Wise ofrece una |API|, herramientas de facturación y cuentas empresariales. "
+"Las empresas pueden enviar y recibir pagos con la tecnología de pagos "
+"internacionales de Wise sin desarrollar todo desde cero."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:763
 msgid "This feature can be used to pay vendor bills."
-msgstr ""
+msgstr "Puedes usar esta función para pagar facturas de proveedor."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:769
 msgid "Wise configuration"
-msgstr ""
+msgstr "Configuración de Wise"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:771
 msgid ""
@@ -74571,69 +74579,93 @@ msgid ""
 "linking a bank account to the Wise account, and generating |API| tokens from "
 "the Wise account. These steps are detailed below:"
 msgstr ""
+"La configuración de Wise incluye tres pasos principales: crear una cuenta de "
+"Wise, vincular una cuenta bancaria a la cuenta de Wise y generar tokens de "
+"|API| desde la cuenta de Wise. A continuación encontrarás los pasos para "
+"hacer esto:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:774
 msgid ""
 "Navigate to `Wise.com <https://wise.com/>`_ and click :guilabel:`Sign-Up` to "
 "create an account."
 msgstr ""
+"Ve a `Wise.com <https://wise.com/>`_ y haz clic en :guilabel:`Regístrate` "
+"para crear una cuenta."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:775
 msgid ""
 "Select :guilabel:`Business Account` and finish providing company and "
 "personal user details to complete the sign-up process."
 msgstr ""
+"Selecciona :guilabel:`Cuenta empresarial` y completa los datos de la empresa "
+"y del usuario para finalizar el proceso de registro."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:778
 msgid ""
 "Wise may require additional verification documents depending on the business "
 "type and country. This process can take 1–3 business days."
 msgstr ""
+"Wise puede solicitar documentos de verificación adicionales según el tipo de "
+"empresa y el país. Este proceso puede tardar entre uno y tres días hábiles."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:781
 msgid ""
 "Navigate to the account settings by clicking the :guilabel:`Company Name` in "
 "the top-right corner of the dashboard."
 msgstr ""
+"Ve a los ajustes de la cuenta al hacer clic en el :guilabel:`nombre de la "
+"empresa` en la esquina superior derecha del tablero."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:783
 msgid ""
 "Select :menuselection:`Payment Methods --> Connected bank accounts` and "
 "click :guilabel:`Connect Your Bank Account`."
 msgstr ""
+"Selecciona :menuselection:`Métodos de pago --> Cuentas bancarias conectadas` "
+"y haz clic en :guilabel:`Conecta tu cuenta bancaria`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:785
 msgid ""
 "Search for the bank and add the bank account information. This bank account "
 "will be configured in Odoo as well."
 msgstr ""
+"Busca el banco y agrega la información de la cuenta bancaria. Esta cuenta "
+"bancaria también se configurará en Odoo."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:788
 msgid ""
 "Go to the account settings by clicking the :guilabel:`Company Name` in the "
 "top-right corner of the dashboard."
 msgstr ""
+"Ve a los ajustes de la cuenta al hacer clic en el :guilabel:`nombre de la "
+"empresa` en la esquina superior derecha del tablero."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:790
 msgid ""
 "Select :menuselection:`Integration and Tools --> API Tokens` and "
 "click :guilabel:`Add new token`."
 msgstr ""
+"Selecciona :menuselection:`Integraciones y herramientas --> Tokens de API` y "
+"haz clic en :guilabel:`Agregar nuevo token`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:791
 msgid ""
 "Add a description and select :guilabel:`Full Access`, then "
 "click :guilabel:`Create Token`."
 msgstr ""
+"Agrega una descripción y selecciona :guilabel:`Acceso completo`, luego haz "
+"clic en :guilabel:`Crear token`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:792
 msgid ""
 "Find the token under :guilabel:`API tokens` and click :guilabel:`Reveal key`."
 msgstr ""
+"Busca el token en :guilabel:`Tokens de API` y haz clic en :guilabel:`Mostrar "
+"clave`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:793
 msgid "Copy the token to the clipboard."
-msgstr ""
+msgstr "Copia el token en el portapapeles."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:798
 msgid ""
@@ -74641,36 +74673,51 @@ msgid ""
 "adding Wise |API| credentials, adding the company bank account, and adding "
 "the vendor bank account. These steps are detailed below:"
 msgstr ""
+"La configuración en Odoo incluye cuatro pasos principales: instalar el "
+"módulo de Wise, agregar las credenciales de la |API| de Wise, agregar la "
+"cuenta bancaria de la empresa y agregar la cuenta bancaria del proveedor. A "
+"continuación encontrarás detalles de estos pasos:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:802
 msgid ""
 "In the Odoo database, :ref:`install <general/install>` the :guilabel:`United "
 "States - Direct Deposit` module."
 msgstr ""
+"En la base de datos de Odoo, :ref:`instala <general/install>` el módulo "
+":guilabel:`Estados Unidos - Depósito directo`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:806
 msgid ""
 "To see the module in search results, remove the :doc:`Apps filter <../../"
 "general/apps_modules>` from the search bar."
 msgstr ""
+"Para ver el módulo en los resultados de búsqueda, elimina el :doc:`filtro de "
+"Aplicaciones <../../general/apps_modules>` de la barra de búsqueda."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:809
 msgid ""
 "Go to :menuselection:`Accounting app --> Configuration --> Settings` and "
 "scroll down to the :guilabel:`Vendor Payments` section."
 msgstr ""
+"Ve a :menuselection:`Contabilidad --> Configuración --> Ajustes` y dirígete "
+"a la sección :guilabel:`Pagos de proveedor`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:811
 msgid ""
 "In the setting for :guilabel:`U.S. Direct Deposit (via Wise)`, enter "
 "the :guilabel:`Wise API token` generated in Wise."
 msgstr ""
+"En el ajuste :guilabel:`Depósito directo en EE. UU. (vía Wise)`, ingresa el "
+":guilabel:`token de la API de Wise` generado en Wise."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:814
 msgid ""
 "Click :icon:`fa-plug` :guilabel:`Connect to Wise` to ensure the connection "
 "is established between the Odoo database and the Wise account."
 msgstr ""
+"Haz clic en :icon:`fa-plug` :guilabel:`Conectar con Wise` para confirmar que "
+"la conexión entre la base de datos de Odoo y la cuenta de Wise esté "
+"establecida."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:0
 msgid ""
@@ -74678,28 +74725,37 @@ msgid ""
 "between the\n"
 "Odoo database and the Wise account."
 msgstr ""
+"Haz clic en el botón Conectar con Wise para confirmar que la conexión entre "
+"\n"
+"la base de datos de Odoo y la cuenta de Wise esté establecida."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:821
 msgid "Create the company and vendor bank accounts:"
-msgstr ""
+msgstr "Crea las cuentas bancarias de la empresa y del proveedor:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:823
 msgid ""
 "Go to the :guilabel:`Contacts` app and select the company/vendor's contact "
 "card."
 msgstr ""
+"Ve a la aplicación :guilabel:`Contactos` y selecciona la tarjeta de contacto "
+"de la empresa o del proveedor."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:824
 msgid ""
 "Switch to the :guilabel:`Accounting` tab and click on the :guilabel:`Bank "
 "accounts` field, then click :guilabel:`Create`."
 msgstr ""
+"Ve a la pestaña :guilabel:`Contabilidad` y haz clic en el campo :guilabel:`"
+"Cuentas bancarias`, luego haz clic en :guilabel:`Crear`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:0
 msgid ""
 "Click the Bank accounts field, then click Create to enter the bank account "
 "details."
 msgstr ""
+"Haz clic en el campo Cuentas bancarias y luego en Crear para ingresar los "
+"datos de la cuenta bancaria."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:830
 msgid ""
@@ -74708,51 +74764,70 @@ msgid ""
 "click :guilabel:`Create new` to fill out the bank details, then "
 "click :guilabel:`Save`."
 msgstr ""
+"Haz clic en el campo :guilabel:`Banco` y selecciona el banco de la lista o "
+"haz clic en :guilabel:`Buscar más` si no aparece. Si el banco no está en la "
+"lista, haz clic en :guilabel:`Crear nuevo`, completa los datos del banco y "
+"haz clic en :guilabel:`Guardar`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:0
 msgid "Click the Bank accounts field, then select or create the bank."
-msgstr ""
+msgstr "Haz clic en el campo Cuentas bancarias y selecciona o crea el banco."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:837
 msgid ""
 "Finally, enter the company bank account information (linked in Wise) or "
 "vendor bank account information, and click :guilabel:`Save`."
 msgstr ""
+"Por último, ingresa la información de la cuenta bancaria de la empresa "
+"(vinculada en Wise) o de la cuenta bancaria del proveedor y haz clic en "
+":guilabel:`Guardar`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:840
 msgid ""
 "The :guilabel:`Bank accounts` field in the :guilabel:`Accounting` tab should "
 "now display the newly added bank account."
 msgstr ""
+"El campo :guilabel:`Cuentas bancarias` en la pestaña :guilabel:`Contabilidad`"
+" ahora debería mostrar la cuenta bancaria recién agregada."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:0
 msgid "Enter the company/vendor bank account information, then click Save."
 msgstr ""
+"Ingresa la información de la cuenta bancaria de la empresa o del proveedor y "
+"luego haz clic en Guardar."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:846
 msgid "Repeat these steps for the **vendor** bank account."
-msgstr ""
+msgstr "Repite estos pasos para la cuenta bancaria del **proveedor**."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:849
 msgid ""
 "To avoid errors when initiating payments to the vendor, ensure the following:"
 msgstr ""
+"Para evitar errores al iniciar pagos al proveedor, asegúrate de lo siguiente:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:851
 msgid ""
 "Verify the destination bank account with the vendor, then mark it "
 "as :doc:`Trusted <../accounting/payments/trusted_accounts>`."
 msgstr ""
+"Verifica la cuenta bancaria de destino con el proveedor y márcala como :doc:`"
+"confiable <../accounting/payments/trusted_accounts>`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:853
 msgid "Select the correct :guilabel:`Bank Account Type` (checking or savings)."
 msgstr ""
+"Selecciona el :guilabel:`tipo de cuenta bancaria` correcto "
+"(corriente o de ahorros)."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:854
 msgid ""
 "Select the preferred :guilabel:`Direct Deposit Transfer Type` for the vendor/"
 "destination account. Pricing can be verified directly in Wise."
 msgstr ""
+"Selecciona el :guilabel:`tipo de transferencia por depósito directo` "
+"preferido para la cuenta del proveedor o de destino. Puedes verificar los "
+"precios directamente en Wise."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:856
 msgid ""
@@ -74760,22 +74835,30 @@ msgid ""
 "price by feature & transaction amount; for pricing in other countries, "
 "select the country at the top of the page."
 msgstr ""
+"Consulta los `precios de Wise en EE. UU. <https://wise.com/us/pricing/"
+"business>`__ para calcular el precio según la función y el monto de la "
+"transacción. Para consultar los precios en otros países, selecciona el país "
+"en la parte superior de la página."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:861
 msgid ""
 "Wise offers a `Sandbox environment <https://sandbox.transferwise.tech/"
 "login>`_ for testing features and integrations."
 msgstr ""
+"Wise ofrece un `entorno de pruebas <https://sandbox.transferwise.tech/login>`"
+"_ para probar funciones e integraciones."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:864
 msgid ""
 "Select the appropriate environment to ensure accurate results (*sandbox* for "
 "testing, *production* for real transactions)."
 msgstr ""
+"Selecciona el entorno adecuado para obtener resultados precisos (*pruebas* o "
+"de lo contrario *producción* para realizar transacciones reales)."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:868
 msgid "Pay vendor bills with direct deposit"
-msgstr ""
+msgstr "Pagar facturas de proveedores mediante depósito directo"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:870
 msgid ""
@@ -74783,84 +74866,111 @@ msgid ""
 "be created individually in the Odoo database, batched for transfer, and then "
 "paid in Wise."
 msgstr ""
+"Después de configurar el depósito directo tanto en Wise como en Odoo puedes "
+"crear pagos a proveedores por separado en la base de datos de Odoo, "
+"agruparlos para la transferencia y luego pagarlos en Wise."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:873
 msgid ":ref:`Create vendor bills <accounting/vendor_bills/creation>`."
-msgstr ""
+msgstr ":ref:`Crea facturas de proveedor <accounting/vendor_bills/creation>`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:874
 msgid ""
 ":doc:`Pay the vendor bills <../accounting/payments>` using :guilabel:`U.S. "
 "Direct Deposit` as the :guilabel:`Payment Method` for the transaction."
 msgstr ""
+":doc:`Paga las facturas de proveedor <../accounting/payments>` al "
+"seleccionar :guilabel:`Depósito directo en EE. UU.` como el :guilabel:`"
+"método de pago` de la transacción."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:876
 msgid ""
 ":doc:`Create a batch payment <../accounting/payments/batch>`. Batch payments "
 "can include payments from multiple vendors."
 msgstr ""
+":doc:`Crea un pago por lote <../accounting/payments/batch>`. Los pagos por "
+"lote pueden incluir pagos para varios proveedores."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:878
 msgid ""
 "Confirm the :guilabel:`Batch Type` is :guilabel:`Outbound`, and "
 "click :guilabel:`Initiate payment`. Odoo will redirect to Wise."
 msgstr ""
+"Confirma que el :guilabel:`tipo de lote` sea :guilabel:`Saliente` y haz clic "
+"en :guilabel:`Iniciar pago`. Odoo te redirigirá a Wise."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:881
 msgid ""
 "Sign into the Wise account if needed, and see all the pending transactions."
 msgstr ""
+"Inicia sesión en la cuenta de Wise si es necesario y revisa todas las "
+"transacciones pendientes."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:883
 msgid ""
 "Review the details and confirm the batch number is the same in Odoo and Wise."
 msgstr ""
+"Revisa los detalles y confirma que el número de lote sea el mismo en Odoo y "
+"en Wise."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:884
 msgid ""
 "Click :guilabel:`Pay for this batch` or :guilabel:`I've now paid` to pay for "
 "the entire batch."
 msgstr ""
+"Haz clic en :guilabel:`Pagar este lote` o en :guilabel:`Ya realicé el pago` "
+"para pagar todo el lote."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:887
 msgid ""
 "If pop-ups are blocked in the browser settings, Odoo can't redirect to Wise. "
 "Instead, Odoo displays a message stating:"
 msgstr ""
+"Si las ventanas emergentes están bloqueadas en la configuración del "
+"navegador, Odoo no podrá redirigirte a Wise. En su lugar, mostrará el "
+"siguiente mensaje:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:890
 msgid ""
 "`\"A popup window has been blocked. You may need to change your browser "
 "settings to allow popup windows for this page.\"`"
 msgstr ""
+"`\"Se bloqueó una ventana emergente. Es posible que debas cambiar la "
+"configuración de tu navegador para permitir ventanas emergentes en esta "
+"página\".`"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:893
 msgid ""
 "The payment record is still created in Wise, and can be accessed by "
 "clicking :guilabel:`View Batch` on the batch payment."
 msgstr ""
+"El registro del pago se crea de todas formas en Wise y puedes acceder a él "
+"al hacer clic en :guilabel:`Ver lote` en el pago por lote."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:897
 msgid "Cancel a batch payment"
-msgstr ""
+msgstr "Cancelar un pago por lotes"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:899
 msgid "To cancel a batch payment, follow these steps:"
-msgstr ""
+msgstr "Sigue estos pasos para cancelar un pago por lotes:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:901
 msgid "Navigate to :menuselection:`Accounting --> Vendors --> Batch Payments`."
-msgstr ""
+msgstr "Ve a :menuselection:`Contabilidad --> Proveedores --> Pagos por lotes`."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:902
 msgid ""
 "Select the batch payment to cancel, then click :guilabel:`View Batch`. Odoo "
 "will redirect to the batch in Wise. Sign into the Wise account if needed."
 msgstr ""
+"Selecciona el pago por lotes a cancelar, luego haz clic en :guilabel:`Ver "
+"lote`. Odoo redirigirá al lote en Wise. Inicia sesión en la cuenta de Wise "
+"si es necesario."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:904
 msgid "Click :guilabel:`Cancel batch` in Wise."
-msgstr ""
+msgstr "Haz clic en :guilabel:`Cancelar lote` en Wise."
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:907
 msgid "ISO 20022"
